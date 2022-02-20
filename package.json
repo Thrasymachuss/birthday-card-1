@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "deploy":"rm -rf dist/ && npm build && gh-pages -d dist"
+    "deploy": "rm -rf dist/ && npm build && gh-pages -d dist"
   },
   "homepage": "https://Thrasymachuss.github.io/birthday-card-1",
   "keywords": [],
@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

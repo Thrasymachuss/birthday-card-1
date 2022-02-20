@@ -78,7 +78,7 @@ body {
 .card-inner .card-front .streamers-row .streamer {
   width: 10em;
   height: 10em;
-  background-image: url(./images/party-309155.svg);
+  background-image: url(images/party-309155.svg);
   background-repeat: no-repeat;
   transform: translateY(-25vh);
   animation: streamers 30s ease-out calc(var(--i) * 1s) infinite !important;
