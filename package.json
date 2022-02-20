@@ -1,0 +1,18 @@
+{
+  "name": "momsbirthdaycard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy":"rm -rf dist/ && npm build && gh-pages -d dist"
+  },
+  "homepage": "https://Thrasymachuss.github.io/birthday-card-1",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
