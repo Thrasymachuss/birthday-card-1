@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "deploy": "rm -rf dist/ && npm build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "homepage": "https://Thrasymachuss.github.io/birthday-card-1",
   "keywords": [],
