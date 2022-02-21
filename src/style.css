@@ -163,9 +163,9 @@ body {
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1690px) {
   .card-inner .card-front h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 
   .card-back .text-content {
@@ -180,7 +180,7 @@ body {
   }
   .btn-container .btn {
     position: relative;
-    margin: 4em 0;
+    margin: 2em 0;
     width: 4em;
     height: 3em;
     font-size: 1.5rem;
@@ -197,7 +197,7 @@ body {
     margin: 1em;
   }
   .card-back .text-content p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -209,8 +209,5 @@ body {
   .card-back .text-content {
     min-height: 60vh;
     margin: 5em 1em 0;
-  }
-  .card-back .text-content p {
-    font-size: 1rem;
   }
 }
